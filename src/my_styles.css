@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "uindbase";
+  src: url("fonts/uindbase/uindbase.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #10171f;
+  color: #ffffff;
+  font-family: "uindbase";
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: auto;
+  background-color: wheat;
+  color: black;
+}
+
+.footer {
+  height: 100px;
+  background-color: black;
+}
