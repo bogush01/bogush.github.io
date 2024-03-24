@@ -1,3 +1,5 @@
+@import "vars.css";
+
 @font-face {
   font-family: "uindbase";
   src: url("fonts/uindbase/uindbase.ttf");
