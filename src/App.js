@@ -11,9 +11,9 @@ import "./my_styles.css";
 function App() {
   return (
     <>
-      <Header />
-
       <BrowserRouter>
+        <Header />
+
         <main className="main">
           <Routes>
             <Route exact path="/" element={<MainPage />} />
