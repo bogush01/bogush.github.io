@@ -20,9 +20,8 @@ function App() {
             <Route exact path="/page2" element={<Page2 />} />
           </Routes>
         </main>
+        <footer className="footer"></footer>
       </BrowserRouter>
-
-      <footer className="footer"></footer>
     </>
   );
 }
