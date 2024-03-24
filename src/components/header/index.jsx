@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom";
 
-import logoPic from "../../img/logo.png";
+import Socials from "../Socials/";
 
-import { ReactComponent as SocVk } from "../../svg/socials/ico_vk.svg";
-import { ReactComponent as SocTg } from "../../svg/socials/ico_tg.svg";
-import { ReactComponent as SocInst } from "../../svg/socials/ico_inst.svg";
-import { ReactComponent as SocTiktok } from "../../svg/socials/ico_tiktok.svg";
+import logoPic from "../../img/logo.png";
 
 import "./index.css";
 
@@ -45,28 +42,9 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <ul className="social-buttons">
-          <li>
-            <a href="#">
-              <SocVk />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <SocTg />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <SocInst />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <SocTiktok />
-            </a>
-          </li>
-        </ul>
+        <div className="header__main-menu-link">
+          <Socials />
+        </div>
       </div>
       <ul className="header__gender-menu">
         <li>
