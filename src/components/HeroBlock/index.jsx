@@ -19,7 +19,11 @@ const HeroBlock = () => {
         <img src={clothesForEveryone} alt="" />
       </BackTextHeader>
       <p className="hero-block__small-text">На каждый день</p>
-      <ButtonOrLink className="hero-block__link-to-catalog" caption="КАТАЛОГ" />
+      <ButtonOrLink
+        to="/"
+        className="hero-block__link-to-catalog"
+        caption="КАТАЛОГ"
+      />
     </div>
   );
 };
