@@ -10,6 +10,7 @@ const HeroBlock = () => {
     <div className="hero-block">
       <img className="hero-block__logo" src={logo} alt="" />
       <BackTextHeader
+        className="hero-block__back-text-header"
         backText="Одежда для каждого"
         backTextClassName="back-text-class-name"
         childrenContainerClassName="children-container-class-name"
