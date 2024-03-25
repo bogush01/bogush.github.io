@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "uindbase";
+  src: url("fonts/uindbase/uindbase.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "usually";
+  src: url("fonts/usually/usually.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "usually_bold";
+  src: url("fonts/usually/usually_bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
