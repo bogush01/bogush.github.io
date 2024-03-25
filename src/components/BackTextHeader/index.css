@@ -1,3 +1,7 @@
+.back-text-container {
+  position: relative;
+}
+
 .back-text {
   padding: 0;
   margin: 0;
@@ -5,6 +9,12 @@
   font-family: "usually_bold";
   text-align: center;
   color: var(--gray-back-text);
+}
+
+.children-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .back-text-main-content-container {

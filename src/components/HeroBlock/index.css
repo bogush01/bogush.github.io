@@ -9,3 +9,12 @@
 .hero-block__logo {
   margin-bottom: 41px;
 }
+
+.back-text-class-name {
+  font-size: 150px;
+}
+
+.children-container-class-name {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

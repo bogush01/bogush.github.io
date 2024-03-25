@@ -9,7 +9,13 @@ const HeroBlock = () => {
   return (
     <div className="hero-block">
       <img className="hero-block__logo" src={logo} alt="" />
-      <BackTextHeader />
+      <BackTextHeader
+        backText="Одежда для каждого"
+        backTextClassName="back-text-class-name"
+        childrenContainerClassName="children-container-class-name"
+      >
+        <img src={clothesForEveryone} alt="" />
+      </BackTextHeader>
     </div>
   );
 };
