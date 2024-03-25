@@ -22,3 +22,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.hero-block__small-text {
+  text-transform: uppercase;
+  margin-bottom: 178px;
+}
+
+.hero-block__link-to-catalog {
+  align-self: flex-end;
+}

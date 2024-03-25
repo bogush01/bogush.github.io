@@ -1,0 +1,29 @@
+.button-or-link {
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  color: var(--main-yellow);
+  border: 2px solid var(--main-yellow);
+  font-family: "Arial";
+  size: 20px;
+  padding: 15px 39px 15px 80px;
+  border-radius: 27px;
+  text-shadow: 0 0 10px var(--main-yellow);
+  transition: box-shadow 0.2s linear;
+}
+
+.button-or-link:hover {
+  box-shadow: 0 0 10px var(--main-yellow);
+}
+
+.button-or-link:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 31px;
+  height: 24px;
+  background-image: url("../../../img/button_wing_ico.png");
+  background-repeat: no-repeat;
+  top: 14px;
+  left: 30px;
+}
