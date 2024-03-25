@@ -7,7 +7,7 @@ import "./index.css";
 const MainPage = () => {
   return (
     <>
-      <span>MainPage</span>
+      <HeroBlock />
     </>
   );
 };
