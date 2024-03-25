@@ -9,20 +9,3 @@
 .hero-block__logo {
   margin-bottom: 41px;
 }
-
-.back-text {
-  padding: 0;
-  margin: 0;
-  font-size: 120px;
-  font-family: "usually_bold";
-  text-align: center;
-  color: var(--gray-back-text);
-}
-
-.back-text-main-content-container {
-  text-align: center;
-}
-
-.back-text-main-content {
-  margin-top: -100%;
-}
