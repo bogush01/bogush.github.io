@@ -1,0 +1,28 @@
+.catalog-side-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 46px;
+  flex-direction: column;
+}
+
+.catalog-side-menu-link,
+.catalog-side-menu-active {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: color 0.2s linear;
+}
+
+.catalog-side-menu-active {
+  text-decoration: underline;
+  text-shadow:
+    -2px 0 3px var(--main-yellow),
+    1px 0 0 #982fbc;
+}
+
+.catalog-side-menu-link:hover {
+  color: var(--main-yellow);
+}
