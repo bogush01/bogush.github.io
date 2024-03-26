@@ -38,7 +38,7 @@ const MainPage = () => {
         >
           <h2 className="children-class">Акутальное</h2>
         </BackTextHeader>
-        <CurrentProductsList />
+        <CurrentProductsList className="current-products-list-mb62" />
       </section>
     </>
   );

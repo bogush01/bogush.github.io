@@ -2,9 +2,11 @@ import ProductPosition from "../../components/ProductPosition";
 
 import "./index.css";
 
-const CurrentProductsList = () => {
+const CurrentProductsList = (props) => {
+  const { className = "" } = props;
+
   return (
-    <ul className="current-products-list">
+    <ul className={`current-products-list ${className}`}>
       <li>
         <ProductPosition />
       </li>
