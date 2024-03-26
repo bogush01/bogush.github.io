@@ -13,8 +13,6 @@ const StyledButtonOrLink = (props) => {
     );
   }
 
-  // const handleClick = () =
-
   return (
     <button
       type={buttonType}
