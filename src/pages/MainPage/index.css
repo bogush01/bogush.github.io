@@ -1,9 +1,15 @@
-.section {
+.section,
+.section-contacts {
   padding-bottom: 76px;
 }
 
 .back-text-class {
   font-size: 140px;
+}
+
+.back-text-class-contacts {
+  text-align-last: left;
+  font-size: 180px;
 }
 
 .back-text-header-class {
@@ -50,4 +56,15 @@
 
 .link-show-more:hover {
   color: var(--main-yellow);
+}
+
+.connection-block {
+  display: flex;
+  gap: 152px;
+}
+
+.contacts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
