@@ -7,7 +7,16 @@ import "./index.css";
 const ProductPosition = () => {
   return (
     <div className="product-position">
-      <img className="product-position__photo" src={pic1} alt="" />
+      <Link to="">
+        <img className="product-position__photo" src={pic1} alt="" />
+      </Link>
+      <Link to="/" className="product-position__title">
+        Костюм Advolatum соцветие
+      </Link>
+      <div className="product-position__cart-panel">
+        <span>3751 ₽</span>
+        <button className="product-position__button-buy">В корзину</button>
+      </div>
     </div>
   );
 };

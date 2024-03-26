@@ -7,8 +7,52 @@
   height: 461px;
   border-radius: 10px;
   overflow: hidden;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .product-position__photo {
   max-width: 100%;
+}
+
+.product-position__title {
+  padding: 0 14px 0 2px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s linear;
+  max-height: var(--product-position-title-height);
+
+  /*Эти строки нужны для того, чтобы название товара не превышало двух строк,
+а в случае превышения текст обрывался и в конце ставилось многоточие*/
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.product-position__title:hover,
+.product-position__button-buy:hover {
+  color: var(--main-yellow);
+}
+
+.product-position__cart-panel {
+  display: flex;
+  justify-content: space-between;
+  width: var(--product-position-cart-panel-width);
+  margin: 0 auto;
+  color: #fff;
+}
+
+.product-position__button-buy {
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: underline;
+  border: none;
+  font-family: "uindbase";
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: color 0.2s linear;
 }
