@@ -10,6 +10,7 @@
   border-radius: 27px;
   text-shadow: 0 0 10px var(--main-yellow);
   transition: box-shadow 0.2s linear;
+  text-decoration: none;
 }
 
 .button-or-link:hover {
