@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import "./index.css";
 
-const ButtonOrLink = (props) => {
+const StyledButtonOrLink = (props) => {
   const { caption = "", className = "", to, buttonType, onClick } = props;
 
   if (to !== undefined) {
@@ -26,4 +26,4 @@ const ButtonOrLink = (props) => {
   );
 };
 
-export default ButtonOrLink;
+export default StyledButtonOrLink;

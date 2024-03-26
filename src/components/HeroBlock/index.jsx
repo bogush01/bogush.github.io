@@ -2,7 +2,7 @@ import logo from "../../img/logo.png";
 import clothesForEveryone from "../../img/clothes_for_everyone.png";
 
 import BackTextHeader from "../BackTextHeader";
-import ButtonOrLink from "../controls/ButtonOrLink";
+import StyledButtonOrLink from "../controls/StyledButtonOrLink";
 
 import "./index.css";
 
@@ -19,7 +19,7 @@ const HeroBlock = () => {
         <img src={clothesForEveryone} alt="" />
       </BackTextHeader>
       <p className="hero-block__small-text">На каждый день</p>
-      <ButtonOrLink
+      <StyledButtonOrLink
         to="/"
         className="hero-block__link-to-catalog"
         caption="КАТАЛОГ"
