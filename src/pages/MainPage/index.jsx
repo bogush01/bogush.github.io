@@ -60,10 +60,14 @@ const MainPage = () => {
           <img src={map} alt="" />
           <ul className="contacts">
             <li>
-              <a href="tel:+78000000000">8 (800) 000-00-00</a>
+              <a className="contacts-link" href="tel:+78000000000">
+                8 (800) 000-00-00
+              </a>
             </li>
             <li>
-              <a href="mailto:info@advolatum.ru">info@advolatum.ru</a>
+              <a className="contacts-link" href="mailto:info@advolatum.ru">
+                info@advolatum.ru
+              </a>
             </li>
             <li>
               <Socials />
