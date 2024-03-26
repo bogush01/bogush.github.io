@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import HeroBlock from "../../components/HeroBlock";
 import BackTextHeader from "../../components/BackTextHeader";
+import CurrentProductsList from "../../components/CurrentProductsList";
 
 import mainCarouselPreview from "../../img/main-carousel/main_carousel_preview.png";
 
@@ -35,8 +36,9 @@ const MainPage = () => {
           backTextClassName="back-text-class"
           childrenContainerClassName="children-container-right"
         >
-          <h2 className="children-class">На этот сезон</h2>
+          <h2 className="children-class">Акутальное</h2>
         </BackTextHeader>
+        <CurrentProductsList />
       </section>
     </>
   );
