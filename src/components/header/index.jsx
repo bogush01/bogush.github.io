@@ -21,8 +21,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="header__main-menu-link" to="/">
-                Коллекция
+              <Link className="header__main-menu-link" to="/catalog">
+                Коллекции
               </Link>
             </li>
             <li>
