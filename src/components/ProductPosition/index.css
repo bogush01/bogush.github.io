@@ -1,0 +1,14 @@
+.product-position {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #10171f;
+  width: 272px;
+  height: 461px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-position__photo {
+  max-width: 100%;
+}
