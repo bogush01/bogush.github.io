@@ -17,10 +17,26 @@
 }
 
 .catalog-side-menu-active {
+  position: relative;
   text-decoration: underline;
+  margin-left: 63px;
   text-shadow:
     -2px 0 3px var(--main-yellow),
     1px 0 0 #982fbc;
+}
+
+.catalog-side-menu-active:after {
+  content: "";
+  display: block;
+  background-image: url("../../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 12px;
+  background-position: -1px -16px;
+  position: absolute;
+  left: -63px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .catalog-side-menu-link:hover {

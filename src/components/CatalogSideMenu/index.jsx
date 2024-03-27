@@ -15,9 +15,7 @@ const CatalogSideMenu = () => {
           Куртки
         </Link>
       </li>
-      <li>
-        <span className="catalog-side-menu-active">Кофты</span>
-      </li>
+      <li className="catalog-side-menu-active">Кофты</li>
       <li>
         <Link className="catalog-side-menu-link" to="/">
           Комбинезоны
