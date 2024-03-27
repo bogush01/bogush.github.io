@@ -20,7 +20,7 @@
   text-decoration: none;
   color: #fff;
   transition: color 0.2s linear;
-  max-height: var(--product-position-title-height);
+  height: var(--product-position-title-height);
 
   /*Эти строки нужны для того, чтобы название товара не превышало двух строк,
 а в случае превышения текст обрывался и в конце ставилось многоточие*/
