@@ -1,7 +1,18 @@
+import ShopCartProduct from "../ShopCartProduct";
+
 import "./index.css";
 
 const ShopCartList = () => {
-  return <span>шопик!</span>;
+  return (
+    <ul className="shop-cart-list">
+      <li>
+        <ShopCartProduct />
+      </li>
+      <li>
+        <ShopCartProduct />
+      </li>
+    </ul>
+  );
 };
 
 export default ShopCartList;
