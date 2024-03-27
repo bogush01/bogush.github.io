@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import BackTextHeader from "../../components/BackTextHeader";
 import CatalogSideMenu from "../../components/CatalogSideMenu";
+import ColorMenu from "../../components/ColorMenu";
 
 import "./index.css";
 
@@ -16,7 +17,8 @@ const Catalog = () => {
 
       <div className="catalog-block">
         <aside className="catalog-block__aside">
-          <CatalogSideMenu />
+          <CatalogSideMenu className="catalog-block__side-menu" />
+          <ColorMenu />
         </aside>
       </div>
     </>

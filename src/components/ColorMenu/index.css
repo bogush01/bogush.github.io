@@ -1,0 +1,57 @@
+.color-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 6px;
+}
+
+.color-menu_circle {
+  position: relative;
+  display: block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  transition: box-shadow 0.2s linear;
+}
+
+.color-menu_circle:hover {
+  box-shadow: 0 0 5px var(--main-yellow);
+}
+
+.color-menu_circle:after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 13px;
+  background-image: url("../../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -1px -1px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.color-menu_circle.invert:after {
+  filter: invert(1);
+}
+
+.circle-white {
+  background-color: #fff;
+}
+
+.circle-black {
+  background-color: #000;
+}
+
+.circle-violet {
+  background-color: #8229a4;
+}
+
+.circle-yellow {
+  background-color: var(--main-yellow);
+}
+
+.circle-green {
+  background-color: #6d9c5c;
+}

@@ -15,3 +15,7 @@
 .catalog-block__aside {
   width: var(--catalog-aside-width);
 }
+
+.catalog-block__side-menu {
+  margin-bottom: 36px;
+}
