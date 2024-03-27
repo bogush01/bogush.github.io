@@ -7,7 +7,7 @@ const CatalogList = () => {
 
   for (let i = 0; i < 6; i++) {
     const li = (
-      <li>
+      <li key={i}>
         <ProductPosition />
       </li>
     );
