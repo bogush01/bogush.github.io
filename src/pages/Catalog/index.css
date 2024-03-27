@@ -10,6 +10,7 @@
 .catalog-block {
   display: flex;
   gap: 107px;
+  padding-bottom: 68px;
 }
 
 .catalog-block__aside {
