@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 
 import "./index.css";
 
-const CatalogSideMenu = () => {
+const CatalogSideMenu = (props) => {
+  const { className = "" } = props;
+
   return (
-    <ul className="catalog-side-menu">
+    <ul className={`catalog-side-menu ${className}`}>
       <li>
         <Link className="catalog-side-menu-link" to="/">
           Плащи
