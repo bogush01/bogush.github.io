@@ -32,7 +32,10 @@ const ShopCart = () => {
             </dl>
           </div>
         </div>
-        <MakeOrderForm />
+        <div className="shop-cart__form-container">
+          <div className="shop-cart__form-header">Оформление заказа</div>
+          <MakeOrderForm />
+        </div>
       </div>
     </>
   );
