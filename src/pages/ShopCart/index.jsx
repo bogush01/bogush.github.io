@@ -1,5 +1,6 @@
 import BackTextHeader from "../../components/BackTextHeader";
 import ShopCartList from "../../components/ShopCartList";
+import MakeOrderForm from "../../components/forms/MakeOrderForm";
 
 import "./index.css";
 
@@ -31,7 +32,7 @@ const ShopCart = () => {
             </dl>
           </div>
         </div>
-        <form>форма</form>
+        <MakeOrderForm />
       </div>
     </>
   );
