@@ -37,4 +37,9 @@
 .make-order-form__fieldset-row {
   display: flex;
   gap: 16px;
+  justify-content: space-between;
+}
+
+.make-order-form__submit {
+  align-self: flex-end;
 }

@@ -1,4 +1,5 @@
 import StyledCheckbox from "../../controls/StyledCheckbox";
+import StyledButtonOrLink from "../../controls/StyledButtonOrLink";
 
 import "./index.css";
 
@@ -64,7 +65,16 @@ const MakeOrderForm = () => {
           />
         </div>
       </fieldset>
-      <StyledCheckbox caption="" />
+      <div className="make-order-form__fieldset-row">
+        <StyledCheckbox caption="оплата online" />
+        <StyledCheckbox caption="наложенным платежом" />
+      </div>
+      <StyledCheckbox caption="Согласие на обработку персональных данных" />
+      <StyledButtonOrLink
+        caption="Оформить"
+        type="button"
+        className="make-order-form__submit"
+      />
     </form>
   );
 };
