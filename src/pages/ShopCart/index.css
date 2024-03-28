@@ -1,5 +1,11 @@
 .shop-cart {
-  padding: 65px 0 95px;
+  padding-bottom: 95px;
+  display: flex;
+  gap: 164px;
+}
+
+.shop-cart__header {
+  margin-top: 65px;
 }
 
 .shop-cart-back-text {
@@ -9,4 +15,7 @@
 
 .shop-cart_list {
   margin-bottom: 18px;
+}
+
+.shop-cart__cart-content {
 }
