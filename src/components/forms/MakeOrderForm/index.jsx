@@ -1,3 +1,5 @@
+import StyledCheckbox from "../../controls/StyledCheckbox";
+
 import "./index.css";
 
 const MakeOrderForm = () => {
@@ -62,6 +64,7 @@ const MakeOrderForm = () => {
           />
         </div>
       </fieldset>
+      <StyledCheckbox caption="" />
     </form>
   );
 };
