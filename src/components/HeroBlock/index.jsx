@@ -20,7 +20,7 @@ const HeroBlock = () => {
       </BackTextHeader>
       <p className="hero-block__small-text">На каждый день</p>
       <StyledButtonOrLink
-        to="/"
+        to="/catalog"
         className="hero-block__link-to-catalog"
         caption="КАТАЛОГ"
       />
