@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 const StyledButtonOrLink = (props) => {
-  const { caption = "", className = "", to, buttonType, onClick } = props;
+  const { caption = "", className = "", to, type = "button", onClick } = props;
 
   if (to !== undefined) {
     return (
@@ -15,7 +15,7 @@ const StyledButtonOrLink = (props) => {
 
   return (
     <button
-      type={buttonType}
+      type={type}
       onClick={onClick}
       className={`button-or-link ${className}`}
     >
