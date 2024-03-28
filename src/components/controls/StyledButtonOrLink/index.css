@@ -11,6 +11,7 @@
   text-shadow: 0 0 10px var(--main-yellow);
   transition: box-shadow 0.2s linear;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .button-or-link:hover {
