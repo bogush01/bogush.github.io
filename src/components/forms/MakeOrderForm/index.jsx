@@ -69,7 +69,10 @@ const MakeOrderForm = () => {
         <StyledCheckbox caption="оплата online" />
         <StyledCheckbox caption="наложенным платежом" />
       </div>
-      <StyledCheckbox caption="Согласие на обработку персональных данных" />
+      <StyledCheckbox
+        captionClassName="make-order-form__personal-data-caption"
+        caption="Согласие на обработку персональных данных"
+      />
       <StyledButtonOrLink
         caption="Оформить"
         type="button"

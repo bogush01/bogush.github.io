@@ -40,6 +40,10 @@
   justify-content: space-between;
 }
 
+.make-order-form__personal-data-caption {
+  font-size: 10px;
+}
+
 .make-order-form__submit {
   align-self: flex-end;
 }
