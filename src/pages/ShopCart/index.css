@@ -17,5 +17,16 @@
   margin-bottom: 18px;
 }
 
-.shop-cart__cart-content {
+.shop-cart__bill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.shop-cart__bill-text {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #3b4654;
+  width: 457px;
+  text-align: right;
 }
