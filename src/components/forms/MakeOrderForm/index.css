@@ -1,0 +1,40 @@
+.make-order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  text-transform: uppercase;
+}
+
+.make-order-form__fieldset {
+  border: none;
+  padding: 5px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.make-order-form__fieldset-legend {
+  font-size: 15px;
+  color: #3b4654;
+}
+
+.make-order-form__textfield {
+  height: 15px;
+  padding: 10px;
+  background-color: #10171f;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-family: "uindbase";
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.make-order-form__textfield::placeholder {
+  color: #3b4654;
+}
+
+.make-order-form__fieldset-row {
+  display: flex;
+  gap: 16px;
+}
