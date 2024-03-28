@@ -24,8 +24,6 @@ const ShopCart = () => {
                 <dd className="shop-cart__bill-item-dd">Доставка: </dd>
                 <dt className="shop-cart__bill-item-dt">500 ₽</dt>
               </div>
-            </dl>
-            <dl className="shop-cart__bill-items-list">
               <div className="shop-cart__bill-item">
                 <dd className="shop-cart__bill-item-dd">Итого: </dd>
                 <dt className="shop-cart__bill-item-dt">4251 ₽</dt>

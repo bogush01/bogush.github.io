@@ -21,12 +21,30 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .shop-cart__bill-text {
-  text-transform: uppercase;
   font-size: 15px;
   color: #3b4654;
   width: 457px;
-  text-align: right;
+}
+
+.shop-cart__bill-item {
+  display: flex;
+  gap: 95px;
+  color: #fff;
+}
+
+.shop-cart__bill-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.shop-cart__bill-item-dd,
+.shop-cart__bill-item-dt {
+  width: 110px;
 }
