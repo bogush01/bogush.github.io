@@ -12,4 +12,6 @@
   --shop-cart-product-width: 797px;
   --shop-cart-product-height: 150px;
   --shop-cart-title-width: 578px;
+  --styled-checkbox-width: 194px;
+  --styled-radio-width: var(--styled-checkbox-width);
 }
