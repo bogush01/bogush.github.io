@@ -1,3 +1,45 @@
+.current-collection {
+  padding: 123px 0 63px;
+  text-transform: uppercase;
+}
+
+.current-collection__header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-collection__other-collections {
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding-right: 175px;
+  transition: color 0.2s linear;
+}
+
+.current-collection__other-collections:hover {
+  color: var(--main-yellow);
+}
+
+.current-collection__other-collections:after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  background-image: url("../../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -1px -30px;
+  width: 127px;
+  height: 8px;
+  transition: right 0.2s ease-out;
+}
+
+.current-collection__other-collections:hover:after {
+  right: 15px;
+}
+
 .collection-products {
   padding-bottom: 80px;
 }
