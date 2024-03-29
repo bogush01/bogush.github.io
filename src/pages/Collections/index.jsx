@@ -12,6 +12,12 @@ import pic4 from "../../img/current_collection/4.jpg";
 import "./index.css";
 
 const Collections = () => {
+  const otherCollectionsLink = (
+    <Link className="current-collection__other-collections">
+      Другие коллекции
+    </Link>
+  );
+
   return (
     <>
       <section className="current-collection">
@@ -21,9 +27,7 @@ const Collections = () => {
             backText="Классика"
             childrenContainerClassName="collection-products__children-container"
           />
-          <Link className="current-collection__other-collections">
-            Другие коллекции
-          </Link>
+          {otherCollectionsLink}
         </div>
         <p className="current-collection__description">
           коллекция была создана для людей учитывающие детали в своей
