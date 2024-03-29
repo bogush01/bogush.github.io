@@ -1,0 +1,19 @@
+.collection-products {
+  padding-bottom: 80px;
+}
+
+.collection-products__header {
+  margin-bottom: 30px;
+}
+
+.collection-products__children-container {
+  right: 0;
+}
+
+.collection-products__children-class {
+  font-size: 100px;
+  color: #fff;
+  font-family: "uindbase";
+  text-transform: uppercase;
+  margin: 0;
+}
