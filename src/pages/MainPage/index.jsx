@@ -3,11 +3,9 @@ import { Link } from "react-router-dom";
 import HeroBlock from "../../components/HeroBlock";
 import BackTextHeader from "../../components/BackTextHeader";
 import CurrentProductsList from "../../components/CurrentProductsList";
-import Socials from "../../components/Socials";
 import SectionContacts from "../../components/SectionContacts";
 
 import mainCarouselPreview from "../../img/main-carousel/main_carousel_preview.png";
-import map from "../../img/map.jpg";
 
 import "./index.css";
 
