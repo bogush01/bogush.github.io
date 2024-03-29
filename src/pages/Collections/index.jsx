@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CurrentProductsList from "../../components/CurrentProductsList";
 import BackTextHeader from "../../components/BackTextHeader";
 import SectionContacts from "../../components/SectionContacts";
+import StyledButtonOrLink from "../../components/controls/StyledButtonOrLink";
 
 import pic1 from "../../img/current_collection/1.jpg";
 import pic2 from "../../img/current_collection/2.jpg";
@@ -43,6 +44,10 @@ const Collections = () => {
           <div className="current-collection__right-col">
             <img src={pic4} alt="" className="current-collection__photo4" />
           </div>
+        </div>
+        <div className="current-collection__nav-panel">
+          <StyledButtonOrLink to="/" caption="Смотреть коллекцию" />
+          {otherCollectionsLink}
         </div>
       </section>
 

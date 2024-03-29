@@ -46,7 +46,7 @@
   display: flex;
   gap: var(--current-collection-gap);
   width: var(--current-collection-width);
-  margin: 0 auto;
+  margin: 0 auto 44px;
 }
 
 .current-collection__left-col {
@@ -69,6 +69,13 @@
 
 .current-collection__other-collections:hover:after {
   right: 15px;
+}
+
+.current-collection__nav-panel {
+  display: flex;
+  align-items: center;
+  width: var(--current-collection-width);
+  margin-left: auto;
 }
 
 .collection-products {
