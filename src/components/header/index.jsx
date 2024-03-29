@@ -22,7 +22,7 @@ const Header = () => {
             </li>
             <li>
               <Link className="header__main-menu-link" to="/catalog">
-                Коллекции
+                Каталог
               </Link>
             </li>
             <li>
