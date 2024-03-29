@@ -40,11 +40,6 @@ const MainPage = () => {
           <h2 className="children-class">Акутальное</h2>
         </BackTextHeader>
         <CurrentProductsList className="current-products-list-mb62" />
-        <div className="link-show-more-connainer">
-          <Link className="link-show-more" to="/">
-            Смотреть больше
-          </Link>
-        </div>
       </section>
       <SectionContacts />
     </>

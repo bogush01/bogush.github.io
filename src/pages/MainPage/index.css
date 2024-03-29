@@ -30,20 +30,3 @@
 .current-products-list-mb62 {
   margin-bottom: 62px;
 }
-
-.link-show-more-connainer {
-  text-align: right;
-  width: var(--central-block-width);
-  margin: 0 auto;
-}
-
-.link-show-more {
-  font-size: 20px;
-  color: #fff;
-  text-transform: uppercase;
-  transition: color 0.2s linear;
-}
-
-.link-show-more:hover {
-  color: var(--main-yellow);
-}
