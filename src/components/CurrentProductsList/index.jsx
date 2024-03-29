@@ -8,8 +8,8 @@ const CurrentProductsList = (props) => {
   const { className = "" } = props;
 
   return (
-    <>
-      <ul className={`current-products-list ${className}`}>
+    <div className={`current-products-list-wrapper ${className}`}>
+      <ul className="current-products-list">
         <li>
           <ProductPosition />
         </li>
@@ -28,7 +28,7 @@ const CurrentProductsList = (props) => {
           Смотреть больше
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 

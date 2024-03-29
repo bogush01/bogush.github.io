@@ -39,7 +39,7 @@ const MainPage = () => {
         >
           <h2 className="children-class">Акутальное</h2>
         </BackTextHeader>
-        <CurrentProductsList className="current-products-list-mb62" />
+        <CurrentProductsList className="pb-111" />
       </section>
       <SectionContacts />
     </>
