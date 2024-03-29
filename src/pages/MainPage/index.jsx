@@ -32,7 +32,7 @@ const MainPage = () => {
           />
         </div>
       </section>
-      <section className="section">
+      <section>
         <BackTextHeader
           className="back-text-header-class"
           backText="Актуальное"
