@@ -14,4 +14,6 @@
   --shop-cart-title-width: 578px;
   --styled-checkbox-width: 194px;
   --styled-radio-width: var(--styled-checkbox-width);
+  --about-us-gallery-height: 360px;
+  --about-us-gallery-gap: 30px;
 }
