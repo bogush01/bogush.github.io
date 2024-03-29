@@ -26,6 +26,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link className="header__main-menu-link" to="/collections">
+                Коллекции
+              </Link>
+            </li>
+            <li>
               <Link className="header__main-menu-link" to="/aboutus">
                 O нас
               </Link>
