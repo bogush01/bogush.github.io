@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import Socials from "../Socials/";
+import BurgerMenuButton from "../BurgerMenuButton/";
 
 import logoPic from "../../img/logo.png";
 
@@ -13,6 +14,7 @@ const Header = () => {
         <Link to="/">
           <img className="header__logo" src={logoPic} alt="" />
         </Link>
+        <BurgerMenuButton />
         <nav className="header__main-menu-conainer">
           <ul className="header__main-menu">
             <li>

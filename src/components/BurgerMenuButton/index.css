@@ -1,0 +1,15 @@
+.burger-menu-button {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 53px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.burger-menu-button__bar {
+  height: 6px;
+  background-color: var(--main-yellow);
+  border-radius: 10px;
+}
