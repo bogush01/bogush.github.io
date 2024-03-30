@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import StyledButtonOrLink from "../../components/controls/StyledButtonOrLink";
 
-import "./index.css";
+import slidesData from "./slides_data.js";
 
-const SLIDES_COUNT = 5;
+import "./index.css";
 
 const MainCarousel = () => {
   const [selectedSlide, setSelectedSlide] = useState(0);
@@ -15,44 +15,49 @@ const MainCarousel = () => {
     setSelectedSlide(newIndex);
   };
 
-  const switchButtons = Array(SLIDES_COUNT)
-    .fill(null)
-    .map((item, index) => {
-      const labelId = `radio${index}`;
+  const carouselSlides = slidesData.map((item, index) => {
+    const visibilityModifier =
+      selectedSlide === index ? "main-carousel__slide--visible" : "";
+    const className = `main-carousel__slide slide${index + 1} ${visibilityModifier}`;
 
-      return (
-        <li className="main-carousel__swicth-button" key={index}>
-          <input
-            type="radio"
-            className="main-carousel__radio"
-            id={labelId}
-            name="main-carousel"
-            data-index={index}
-            onChange={handleSwitchChange}
-            checked={selectedSlide === index}
+    return (
+      <li className={className} key={index}>
+        <div className="main-carousel__slide-info">
+          <p className="main-carousel__collection-description">
+            {item.description}
+          </p>
+          <StyledButtonOrLink
+            className="main-carousel__slide-catalog-link"
+            caption="Каталог"
+            to={item.link}
           />
-          <label className="main-carousel__label" htmlFor={labelId}></label>
-        </li>
-      );
-    });
+        </div>
+      </li>
+    );
+  });
+
+  const switchButtons = slidesData.map((item, index) => {
+    const labelId = `radio${index}`;
+
+    return (
+      <li className="main-carousel__swicth-button" key={index}>
+        <input
+          type="radio"
+          className="main-carousel__radio"
+          id={labelId}
+          name="main-carousel"
+          data-index={index}
+          onChange={handleSwitchChange}
+          checked={selectedSlide === index}
+        />
+        <label className="main-carousel__label" htmlFor={labelId}></label>
+      </li>
+    );
+  });
 
   return (
     <div className="main-carousel">
-      <ul className="main-carousel__slides-container">
-        <li className="main-carousel__slide slide1">
-          <div className="main-carousel__slide-info">
-            <p className="main-carousel__collection-description">
-              Текст описания конкретной коллекции с возможным дополнением
-              уникальности
-            </p>
-            <StyledButtonOrLink
-              className="main-carousel__slide-catalog-link"
-              caption="Каталог"
-              to="/catalog"
-            />
-          </div>
-        </li>
-      </ul>
+      <ul className="main-carousel__slides-container">{carouselSlides}</ul>
 
       <ul className="main-carousel__swicth">{switchButtons}</ul>
     </div>

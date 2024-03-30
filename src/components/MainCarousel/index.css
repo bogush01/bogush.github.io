@@ -29,6 +29,14 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-out;
+}
+
+.main-carousel__slide--visible {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .main-carousel__slide-info {
