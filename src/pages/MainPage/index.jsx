@@ -6,8 +6,6 @@ import CurrentProductsList from "../../components/CurrentProductsList";
 import SectionContacts from "../../components/SectionContacts";
 import MainCarousel from "../../components/MainCarousel";
 
-import mainCarouselPreview from "../../img/main-carousel/main_carousel_preview.png";
-
 import "./index.css";
 
 const MainPage = () => {
