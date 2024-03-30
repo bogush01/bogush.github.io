@@ -4,6 +4,7 @@ import HeroBlock from "../../components/HeroBlock";
 import BackTextHeader from "../../components/BackTextHeader";
 import CurrentProductsList from "../../components/CurrentProductsList";
 import SectionContacts from "../../components/SectionContacts";
+import MainCarousel from "../../components/MainCarousel";
 
 import mainCarouselPreview from "../../img/main-carousel/main_carousel_preview.png";
 
@@ -22,13 +23,7 @@ const MainPage = () => {
         >
           <h2 className="children-class">На этот сезон</h2>
         </BackTextHeader>
-        <div className="main-carousel">
-          <img
-            className="main-carousel__preview"
-            src={mainCarouselPreview}
-            alt=""
-          />
-        </div>
+        <MainCarousel />
       </section>
       <section>
         <BackTextHeader
