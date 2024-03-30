@@ -27,6 +27,31 @@
   bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-carousel__slide-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto 100px 162px auto;
+  width: var(--main-carousel-slide-info-width);
+}
+
+.main-carousel__collection-description {
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.main-carousel__slide-catalog-link {
+  align-self: center;
 }
 
 .main-carousel__swicth {
