@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import StyledButtonOrLink from "../../components/controls/StyledButtonOrLink";
 
-import mainCarouselPreview from "../../img/main-carousel/main_carousel_preview.png";
-
 import "./index.css";
 
 const SLIDES_COUNT = 5;
