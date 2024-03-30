@@ -47,9 +47,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <div className="header__main-menu-link">
-          <Socials />
-        </div>
+        <Socials />
       </div>
       <ul className="header__gender-menu">
         <li>
