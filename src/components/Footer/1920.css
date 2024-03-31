@@ -1,0 +1,38 @@
+.footer {
+  width: var(--main-width);
+  margin: 0 auto;
+  padding: 39px 0 80px;
+  display: flex;
+  font-family: "arial";
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__policy {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__policy-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s linear;
+}
+
+.footer__policy-link:hover {
+  color: var(--main-yellow);
+}
+
+.footer__logo-copyright {
+  display: flex;
+  flex-direction: column;
+  text-indent: 25px;
+}
+
+.footer__copyright {
+  text-align: center;
+}

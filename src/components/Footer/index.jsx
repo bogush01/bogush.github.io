@@ -21,11 +21,13 @@ const Footer = () => {
           </Link>
         </li>
       </ul>
-      <img className="footer__logo" src={logoFooter} alt="" />
-      <div>
-        <Socials />
+
+      <div className="footer__logo-copyright">
+        <img src={logoFooter} alt="" />
+        <p className="footer__copyright">2024 GruboGovorya</p>
       </div>
-      <p className="footer__copyright">2024 GruboGovorya</p>
+
+      <Socials />
     </footer>
   );
 };

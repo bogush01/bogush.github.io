@@ -1,0 +1,18 @@
+@media (max-width: 799px) and (min-width: 428px) {
+  .footer {
+    padding: 39px 0 80px;
+    display: flex;
+    font-family: "arial";
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer__policy {
+    text-align: center;
+  }
+
+  .footer__logo-copyright {
+    order: 10;
+  }
+}
