@@ -5,10 +5,12 @@ import { ReactComponent as SocTiktok } from "../../svg/socials/ico_tiktok.svg";
 
 import "./index.css";
 
-const Socials = () => {
+const Socials = (props) => {
+  const { className = "" } = props;
+
   return (
     <>
-      <ul className="social-buttons">
+      <ul className={`social-buttons ${className}`}>
         <li>
           <a href="#">
             <SocVk />

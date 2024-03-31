@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 7px;
   width: 53px;
+  height: 32px;
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -10,6 +11,7 @@
 
 .burger-menu-button__bar {
   height: 6px;
+  width: 53px;
   background-color: var(--main-yellow);
   border-radius: 10px;
 }

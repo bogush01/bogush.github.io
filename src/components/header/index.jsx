@@ -11,10 +11,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__top-part">
-        <Link to="/">
-          <img className="header__logo" src={logoPic} alt="" />
+        <Link to="/" className="header__logo">
+          <img src={logoPic} alt="" />
         </Link>
-        <BurgerMenuButton />
+        <BurgerMenuButton className="header__burger" />
         <nav className="header__main-menu-conainer">
           <ul className="header__main-menu">
             <li>
@@ -49,7 +49,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <Socials />
+        <Socials className="header__socials" />
       </div>
       <ul className="header__gender-menu">
         <li>

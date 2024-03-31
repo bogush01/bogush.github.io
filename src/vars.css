@@ -24,3 +24,21 @@
   --main-carousel-height: 587px;
   --main-carousel-slide-info-width: 300px;
 }
+
+@media (max-width: 1919px) and (min-width: 1600px) {
+  :root {
+    --main-width: 1254px;
+  }
+}
+
+@media (max-width: 1599px) and (min-width: 800px) {
+  :root {
+    --main-width: 672px;
+  }
+}
+
+@media (max-width: 799px) and (min-width: 428px) {
+  :root {
+    --main-width: 100%;
+  }
+}
