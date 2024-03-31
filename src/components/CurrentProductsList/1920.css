@@ -1,0 +1,32 @@
+.current-products-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  width: var(--central-block-width);
+  margin: 0 auto;
+  margin-bottom: 62px;
+  overflow: auto;
+}
+
+.current-products-list::-webkit-scrollbar {
+  width: 0;
+}
+
+.link-show-more-connainer {
+  text-align: right;
+  width: var(--central-block-width);
+  margin: 0 auto;
+}
+
+.link-show-more {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: color 0.2s linear;
+}
+
+.link-show-more:hover {
+  color: var(--main-yellow);
+}

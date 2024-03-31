@@ -1,0 +1,10 @@
+@media (max-width: 799px) and (min-width: 428px) {
+  .product-position,
+  .product-position__button-buy {
+    font-size: 15px;
+  }
+
+  .product-position__cart-panel {
+    width: 180px;
+  }
+}

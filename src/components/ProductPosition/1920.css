@@ -40,7 +40,7 @@
 .product-position__cart-panel {
   display: flex;
   justify-content: space-between;
-  width: var(--product-position-cart-panel-width);
+  width: 272px;
   margin: 0 auto;
   color: #fff;
 }

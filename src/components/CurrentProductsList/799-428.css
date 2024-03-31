@@ -1,0 +1,5 @@
+@media (max-width: 799px) and (min-width: 428px) {
+  .current-products-list {
+    gap: 13px;
+  }
+}

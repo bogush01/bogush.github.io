@@ -6,7 +6,6 @@
   --product-position-width: 272px;
   --product-position-height: 461px;
   --product-position-title-height: 40px;
-  --product-position-cart-panel-width: 272px;
   --catalog-aside-width: 228px;
   --product-positions-gap: 29px;
   --catalog-list-width: 874px;
@@ -35,6 +34,7 @@
 @media (max-width: 1599px) and (min-width: 800px) {
   :root {
     --main-width: 672px;
+    --central-block-width: 594px;
   }
 }
 
@@ -43,5 +43,6 @@
     --main-width: 100%;
     --product-position-width: 180px;
     --product-position-height: 332px;
+    --central-block-width: 428px;
   }
 }
