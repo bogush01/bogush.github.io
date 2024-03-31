@@ -15,7 +15,7 @@ const HeroBlock = () => {
         backTextClassName="back-text-class-name"
         childrenContainerClassName="children-container-class-name"
       >
-        <img src={clothesForEveryone} alt="" />
+        <h2 className="hero-block__clothes-for-everyone">Одежда для каждого</h2>
       </BackTextHeader>
       <p className="hero-block__small-text">На каждый день</p>
       <StyledButtonOrLink
