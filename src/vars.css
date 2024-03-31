@@ -35,6 +35,8 @@
   :root {
     --main-width: 672px;
     --central-block-width: 594px;
+    --main-carousel-width: 100%;
+    --main-carousel-height: 495px;
   }
 }
 
@@ -44,5 +46,6 @@
     --product-position-width: 180px;
     --product-position-height: 332px;
     --central-block-width: 428px;
+    --main-carousel-width: 100%;
   }
 }
