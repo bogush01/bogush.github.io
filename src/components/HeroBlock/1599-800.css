@@ -1,0 +1,9 @@
+@media (max-width: 1599px) and (min-width: 800px) {
+  .hero-block__back-text-header .back-text {
+    font-size: 70px;
+  }
+
+  .hero-block__clothes-for-everyone {
+    font-size: 35px;
+  }
+}
