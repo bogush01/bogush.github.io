@@ -11,7 +11,7 @@ import "./index.css";
 const MainPage = () => {
   return (
     <>
-      <HeroBlock />
+      {/*<HeroBlock />
       <section className="section">
         <BackTextHeader
           className="back-text-header-class"
@@ -33,7 +33,7 @@ const MainPage = () => {
           <h2 className="children-class">Акутальное</h2>
         </BackTextHeader>
         <CurrentProductsList className="pb-111" />
-      </section>
+      </section>*/}
       <SectionContacts />
     </>
   );

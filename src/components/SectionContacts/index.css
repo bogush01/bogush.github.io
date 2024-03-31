@@ -1,37 +1,4 @@
-.section,
-.section-contacts {
-  padding-bottom: 76px;
-}
-
-.back-text-class-contacts {
-  text-align-last: left;
-  font-size: 180px;
-}
-
-.connection-block {
-  display: flex;
-  gap: 152px;
-  align-items: center;
-}
-
-.contacts {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 29px;
-}
-
-.contacts-link {
-  text-transform: uppercase;
-  font-size: 25px;
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.2s linear;
-}
-
-.contacts-link:hover {
-  color: var(--main-yellow);
-}
+@import "1920.css";
+@import "1919-1600.css";
+@import "1599-800.css";
+@import "799-428.css";

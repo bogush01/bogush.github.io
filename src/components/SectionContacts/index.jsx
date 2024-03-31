@@ -7,17 +7,17 @@ import "./index.css";
 
 const SectionContacts = () => {
   return (
-    <section className="section">
+    <section className="section-contacts">
       <BackTextHeader
-        className="back-text-header-class"
+        className="section-contacts__back-text-header-class"
         backText="Контакты"
         backTextClassName="back-text-class-contacts"
         childrenContainerClassName="children-container-left"
       >
-        <h2 className="children-class">Мы всегда на связи</h2>
+        <h2 className="section-contacts__children-class">Мы всегда на связи</h2>
       </BackTextHeader>
       <div className="connection-block">
-        <img src={map} alt="" />
+        <img src={map} alt="" className="section-contacts__map" />
         <ul className="contacts">
           <li>
             <a className="contacts-link" href="tel:+78000000000">

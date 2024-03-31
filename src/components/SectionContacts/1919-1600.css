@@ -1,0 +1,13 @@
+@media (max-width: 1919px) and (min-width: 1600px) {
+  .back-text-class-contacts {
+    font-size: 160px;
+  }
+
+  .section-contacts__map {
+    width: 834px;
+  }
+
+  .connection-block {
+    gap: 52px;
+  }
+}
