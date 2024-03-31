@@ -4,6 +4,7 @@
   --main-yellow: #d1c12b;
   --central-block-width: 1248px;
   --product-position-width: 272px;
+  --product-position-height: 461px;
   --product-position-title-height: 40px;
   --product-position-cart-panel-width: 272px;
   --catalog-aside-width: 228px;
@@ -40,5 +41,7 @@
 @media (max-width: 799px) and (min-width: 428px) {
   :root {
     --main-width: 100%;
+    --product-position-width: 180px;
+    --product-position-height: 332px;
   }
 }

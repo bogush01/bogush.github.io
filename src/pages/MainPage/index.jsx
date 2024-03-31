@@ -22,7 +22,7 @@ const MainPage = () => {
           <h2 className="children-class">На этот сезон</h2>
         </BackTextHeader>
         <MainCarousel />
-      </section>
+      </section>*/}
       <section>
         <BackTextHeader
           className="back-text-header-class"
@@ -33,8 +33,8 @@ const MainPage = () => {
           <h2 className="children-class">Акутальное</h2>
         </BackTextHeader>
         <CurrentProductsList className="pb-111" />
-      </section>*/}
-      <SectionContacts />
+      </section>
+      {/*<SectionContacts />*/}
     </>
   );
 };
