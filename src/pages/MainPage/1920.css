@@ -1,0 +1,27 @@
+.back-text-class {
+  font-size: 140px;
+}
+
+.back-text-header-class {
+  margin-bottom: 64px;
+}
+
+.children-class {
+  font-size: 100px;
+  color: #fff;
+  font-family: "uindbase";
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.children-container-left {
+  left: 0;
+}
+
+.children-container-right {
+  right: 0;
+}
+
+.pb-111 {
+  padding-bottom: 111px;
+}
