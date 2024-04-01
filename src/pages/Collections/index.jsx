@@ -21,7 +21,7 @@ const Collections = () => {
 
   return (
     <>
-      {/*      <section className="current-collection">
+      <section className="current-collection">
         <div className="current-collection__header-part">
           <BackTextHeader
             className="collection-products__header"
@@ -54,7 +54,7 @@ const Collections = () => {
           />
           {otherCollectionsLink}
         </div>
-      </section>*/}
+      </section>
 
       <section className="collection-products">
         <BackTextHeader
