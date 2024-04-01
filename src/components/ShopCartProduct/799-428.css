@@ -1,7 +1,7 @@
 @media (max-width: 799px) and (min-width: 428px) {
   .shop-cart-product {
-    width: 400px;
-    height: 220px;
+    /*    width: 400px;*/
+    height: 195px;
   }
 
   .shop-cart-product__title {
@@ -22,15 +22,13 @@
     white-space: normal;
   }
 
-  .shop-cart-product__title {
-  }
-
   .shop-cart-product__features {
     font-size: 15px;
     flex-direction: column;
+    gap: 15px;
   }
 
   .shop-cart-product__about {
-    padding: 5px 5px 8px 0;
+    padding: 15px 5px 8px 0;
   }
 }

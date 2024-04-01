@@ -1,0 +1,19 @@
+@media (max-width: 799px) and (min-width: 428px) {
+  .shop-cart-back-text {
+    font-size: 50px;
+  }
+
+  .shop-cart {
+    flex-direction: column;
+    gap: 42px;
+    padding: 0 15px;
+  }
+
+  .shop-cart__form-container {
+    padding-left: 0;
+  }
+
+  .shop-cart__form-container:before {
+    content: none;
+  }
+}
