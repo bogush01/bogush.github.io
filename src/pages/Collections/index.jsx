@@ -27,6 +27,7 @@ const Collections = () => {
             className="collection-products__header"
             backText="Классика"
             childrenContainerClassName="collection-products__children-container"
+            backTextClassName="collection__back-text-classname"
           />
           {otherCollectionsLink}
         </div>
@@ -37,16 +38,20 @@ const Collections = () => {
         </p>
         <div className="current-collection__colums">
           <div className="current-collection__left-col">
-            <img src={pic1} alt="" />
+            <img src={pic1} alt="" className="current-collection__photo1" />
             <img src={pic2} alt="" className="current-collection__photo2" />
-            <img src={pic3} alt="" />
+            <img src={pic3} alt="" className="current-collection__photo3" />
           </div>
           <div className="current-collection__right-col">
             <img src={pic4} alt="" className="current-collection__photo4" />
           </div>
         </div>
         <div className="current-collection__nav-panel">
-          <StyledButtonOrLink to="/" caption="Смотреть коллекцию" />
+          <StyledButtonOrLink
+            to="/"
+            caption="Смотреть коллекцию"
+            className="current-collection__go-to-colection"
+          />
           {otherCollectionsLink}
         </div>
       </section>

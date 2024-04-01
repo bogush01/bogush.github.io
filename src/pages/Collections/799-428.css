@@ -1,0 +1,52 @@
+@media (max-width: 799px) and (min-width: 428px) {
+  .collection__back-text-classname {
+    font-size: 50px;
+  }
+
+  .current-collection__description {
+    font-size: 15px;
+    margin: 0 auto 20px;
+    --side-padding: 16px;
+    padding: 0 var(--side-padding);
+    width: calc(381px - 2 * var(--side-padding));
+  }
+
+  .current-collection__header-part {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .current-collection__colums {
+    --side-padding: 16px;
+    padding: 0 var(--side-padding);
+    display: flex;
+    gap: 7px;
+    width: calc(381px - 2 * var(--side-padding));
+    margin: 0 auto 44px;
+  }
+
+  .current-collection__photo1,
+  .current-collection__photo3 {
+    width: 100%;
+    height: 100px;
+  }
+
+  .current-collection__photo2 {
+    width: 150%;
+    height: 122px;
+  }
+
+  .current-collection__nav-panel {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-left: 0;
+    width: 381px;
+    margin: 0 auto;
+  }
+
+  .current-collection__go-to-colection {
+    margin: 0;
+  }
+}
