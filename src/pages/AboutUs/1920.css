@@ -1,0 +1,50 @@
+.about-us {
+  padding-top: 135px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.about-us__back-text-class {
+  font-size: 140px;
+  text-align: right;
+}
+
+.about-us__back-text-header-class {
+  margin-bottom: 64px;
+}
+
+.about-us__children-container-right {
+  right: 0;
+}
+
+.about-us__children-class {
+  font-size: 100px;
+  color: #fff;
+  font-family: "uindbase";
+  margin: 0;
+}
+
+.about-us__text {
+  margin-bottom: 60px;
+}
+
+.about-us__gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  height: 360px;
+  gap: 30px;
+  width: var(--central-block-width);
+  margin: 0 auto;
+  padding-bottom: 88px;
+  overflow: auto;
+}
+
+.about-us__gallery::-webkit-scrollbar {
+  width: 0;
+}
+
+.about-us__gallery-photo {
+  max-height: 100%;
+}

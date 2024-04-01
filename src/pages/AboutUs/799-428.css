@@ -1,0 +1,9 @@
+@media (max-width: 799px) and (min-width: 429px) {
+  .about-us__gallery {
+    width: 379px;
+  }
+
+  .about-us {
+    padding: 0 20px;
+  }
+}

@@ -44,8 +44,8 @@ const AboutUs = () => {
             <img src={galPhoto3} alt="" className="about-us__gallery-photo" />
           </li>
         </ul>
-        <SectionContacts />
       </section>
+      <SectionContacts />
     </>
   );
 };
