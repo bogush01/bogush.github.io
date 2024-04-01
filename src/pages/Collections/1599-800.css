@@ -34,4 +34,12 @@
   .current-collection__header-part {
     align-items: flex-end;
   }
+
+  .collection-products__back-text {
+    font-size: 70px;
+  }
+
+  .collection-products__children-class {
+    font-size: 50px;
+  }
 }

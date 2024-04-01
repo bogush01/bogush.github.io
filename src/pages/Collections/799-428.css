@@ -49,4 +49,12 @@
   .current-collection__go-to-colection {
     margin: 0;
   }
+
+  .collection-products__children-class {
+    font-size: 30px;
+  }
+
+  .collection-products__back-text {
+    font-size: 40px;
+  }
 }
