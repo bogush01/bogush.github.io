@@ -1,0 +1,22 @@
+.catalog-block-header {
+  font-size: 130px;
+  text-align: left;
+}
+
+.page-header {
+  margin-top: 76px;
+}
+
+.catalog-block {
+  display: flex;
+  gap: 107px;
+  padding-bottom: 68px;
+}
+
+.catalog-block__aside {
+  width: var(--catalog-aside-width);
+}
+
+.catalog-block__side-menu {
+  margin-bottom: 36px;
+}

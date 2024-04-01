@@ -1,0 +1,10 @@
+@media (max-width: 1599px) and (min-width: 800px) {
+  .catalog-block {
+    gap: 20px;
+  }
+
+  .catalog-block-header {
+    font-size: 80px;
+    text-align: left;
+  }
+}

@@ -8,7 +8,6 @@
   --product-position-title-height: 40px;
   --catalog-aside-width: 228px;
   --product-positions-gap: 29px;
-  --catalog-list-width: 874px;
   --shop-cart-product-width: 797px;
   --shop-cart-product-height: 150px;
   --shop-cart-title-width: 578px;
@@ -45,6 +44,7 @@
     --main-width: 100%;
     --product-position-width: 180px;
     --product-position-height: 332px;
+    --product-positions-gap: 10px;
     --central-block-width: 428px;
     --main-carousel-width: 100%;
   }

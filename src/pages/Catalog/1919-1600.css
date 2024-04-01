@@ -1,0 +1,5 @@
+@media (max-width: 1919px) and (min-width: 1600px) {
+  .catalog-block {
+    gap: 20px;
+  }
+}

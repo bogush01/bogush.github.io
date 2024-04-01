@@ -14,7 +14,7 @@ const Catalog = () => {
         className="page-header"
         backText="Коллекции"
         backTextClassName="catalog-block-header"
-      ></BackTextHeader>
+      />
 
       <div className="catalog-block">
         <aside className="catalog-block__aside">

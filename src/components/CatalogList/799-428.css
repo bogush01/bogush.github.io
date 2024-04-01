@@ -1,0 +1,11 @@
+@media (max-width: 799px) and (min-width: 428px) {
+  .catalog-list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: var(--product-positions-gap);
+    flex-wrap: wrap;
+    width: 370px;
+  }
+}

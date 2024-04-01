@@ -1,9 +1,4 @@
-.catalog-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  gap: var(--product-positions-gap);
-  flex-wrap: wrap;
-  width: var(--catalog-list-width);
-}
+@import "1920.css";
+/*@import "1919-1600.css";*/
+/*@import "1599-800.css";*/
+@import "799-428.css";
