@@ -1,0 +1,36 @@
+@media (max-width: 799px) and (min-width: 428px) {
+  .shop-cart-product {
+    width: 400px;
+    height: 220px;
+  }
+
+  .shop-cart-product__title {
+    text-decoration: none;
+    transition: color 0.2s linear;
+    color: #fff;
+    margin-bottom: 28px;
+    font-size: 20px;
+    width: 200px;
+
+    /*Эти строки нужны для того, чтобы название товара не превышало двух строк,
+    а в случае превышения текст обрывался и в конце ставилось многоточие*/
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+
+  .shop-cart-product__title {
+  }
+
+  .shop-cart-product__features {
+    font-size: 15px;
+    flex-direction: column;
+  }
+
+  .shop-cart-product__about {
+    padding: 5px 5px 8px 0;
+  }
+}

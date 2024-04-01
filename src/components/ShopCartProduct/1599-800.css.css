@@ -1,0 +1,14 @@
+@media (max-width: 1599px) and (min-width: 800px) {
+  .shop-cart-product {
+    width: 666px;
+  }
+
+  .shop-cart-product__title {
+    font-size: 20px;
+    width: 432px;
+  }
+
+  .shop-cart-product__features {
+    font-size: 15px;
+  }
+}
