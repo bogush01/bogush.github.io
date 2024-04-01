@@ -7,4 +7,10 @@
   .catalog-block__aside {
     display: none;
   }
+
+  .catalog__children-class {
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+  }
 }

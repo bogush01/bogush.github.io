@@ -10,11 +10,22 @@ import "./index.css";
 const Catalog = () => {
   return (
     <>
-      <BackTextHeader
+      {/*<BackTextHeader
         className="page-header"
-        backText="Коллекции"
+        backText="Каталог"
         backTextClassName="catalog-block-header"
       />
+      <h2>Каталог</h2>
+      <BackTextHeader />*/}
+
+      <BackTextHeader
+        className="catalog__page-header"
+        backText="Каталог"
+        backTextClassName="catalog-block-header"
+        childrenContainerClassName="catalog__children-container-left"
+      >
+        <h2 className="catalog__children-class">Каталог</h2>
+      </BackTextHeader>
 
       <div className="catalog-block">
         <aside className="catalog-block__aside">

@@ -1,16 +1,27 @@
 .catalog-block-header {
   font-size: 130px;
   text-align: left;
+  margin-bottom: 30px;
 }
 
-.page-header {
+.catalog__page-header {
   margin-top: 76px;
+}
+
+.catalog__children-container-left {
+  left: 0;
 }
 
 .catalog-block {
   display: flex;
   gap: 107px;
   padding-bottom: 68px;
+}
+
+.catalog__children-class {
+  font-size: 100px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .catalog-block__aside {
