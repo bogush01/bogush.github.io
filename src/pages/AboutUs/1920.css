@@ -39,10 +39,12 @@
   margin: 0 auto;
   padding-bottom: 88px;
   overflow: auto;
+  scrollbar-width: none;
 }
 
 .about-us__gallery::-webkit-scrollbar {
   width: 0;
+  height: 0;
 }
 
 .about-us__gallery-photo {

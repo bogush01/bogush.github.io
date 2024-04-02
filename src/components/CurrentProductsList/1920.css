@@ -3,16 +3,17 @@
   padding: 0;
   list-style: none;
   display: flex;
-  /*  justify-content: space-between;*/
   gap: 50px;
   width: var(--central-block-width);
   margin: 0 auto;
   margin-bottom: 62px;
   overflow: auto;
+  scrollbar-width: none;
 }
 
 .current-products-list::-webkit-scrollbar {
   width: 0;
+  height: 0;
 }
 
 .link-show-more-connainer {
