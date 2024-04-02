@@ -8,16 +8,12 @@ import CatalogList from "../../components/CatalogList";
 import "./index.css";
 
 const Catalog = () => {
+  const handleProductBuy = () => {
+    alert("Товар добавлен в корзину");
+  };
+
   return (
     <>
-      {/*<BackTextHeader
-        className="page-header"
-        backText="Каталог"
-        backTextClassName="catalog-block-header"
-      />
-      <h2>Каталог</h2>
-      <BackTextHeader />*/}
-
       <BackTextHeader
         className="catalog__page-header"
         backText="Каталог"
@@ -32,7 +28,7 @@ const Catalog = () => {
           <CatalogSideMenu className="catalog-block__side-menu" />
           <ColorMenu />
         </aside>
-        <CatalogList />
+        <CatalogList onBuyProduct={handleProductBuy} />
       </div>
     </>
   );
