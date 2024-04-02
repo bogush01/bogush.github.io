@@ -20,14 +20,17 @@
   }
 
   .current-collection__nav-panel {
-    flex-direction: column;
     gap: 20px;
-    align-items: flex-end;
+    align-items: center;
     width: 673px;
     margin-left: auto;
   }
 
   .current-collection__go-to-colection {
+    margin: 0;
+  }
+
+  .current-collection__other-collections {
     margin: 0;
   }
 
