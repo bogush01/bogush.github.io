@@ -22,12 +22,16 @@
   .current-collection__nav-panel {
     gap: 20px;
     align-items: center;
-    width: 673px;
+    width: 1024px;
     margin-left: 0;
   }
 
   .current-collection__go-to-colection {
-    margin: 0;
+    margin-left: auto;
+  }
+
+  .current-collection__other-collections {
+    margin-left: auto;
   }
 
   .current-collection__header-part {
@@ -40,9 +44,5 @@
 
   .collection-products__children-class {
     font-size: 50px;
-  }
-
-  .current-collection__other-collections {
-    margin-left: auto;
   }
 }
