@@ -58,6 +58,7 @@
 .shop-cart__form-container {
   position: relative;
   padding-left: 11px;
+  width: calc(100% - 11px);
 }
 
 .shop-cart__form-container:before {

@@ -65,10 +65,10 @@ const MakeOrderForm = () => {
           />
         </div>
       </fieldset>
-      <div className="make-order-form__fieldset-row">
+      {/*      <div className="make-order-form__fieldset-row">
         <StyledCheckbox caption="оплата online" />
         <StyledCheckbox caption="наложенным платежом" />
-      </div>
+      </div>*/}
       <StyledCheckbox
         captionClassName="make-order-form__personal-data-caption"
         caption="Согласие на обработку персональных данных"
