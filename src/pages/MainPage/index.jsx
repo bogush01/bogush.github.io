@@ -9,6 +9,10 @@ import MainCarousel from "../../components/MainCarousel";
 import "./index.css";
 
 const MainPage = () => {
+  const handleProductBuy = () => {
+    alert("Товар добавлен в корзину");
+  };
+
   return (
     <>
       <HeroBlock />
@@ -32,7 +36,10 @@ const MainPage = () => {
         >
           <h2 className="children-class">Акутальное</h2>
         </BackTextHeader>
-        <CurrentProductsList className="pb-111" />
+        <CurrentProductsList
+          onBuyProduct={handleProductBuy}
+          className="pb-111"
+        />
       </section>
       */}
       <SectionContacts />

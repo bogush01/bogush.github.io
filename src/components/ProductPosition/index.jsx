@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 
 import "./index.css";
 
-const ProductPosition = () => {
+const ProductPosition = (props) => {
+  const { onBuyProduct } = props;
+
   return (
     <div className="product-position">
-      <Link to="">
+      <Link to="/">
         <img className="product-position__photo" src={pic1} alt="" />
       </Link>
       <Link to="/" className="product-position__title">
@@ -15,7 +17,9 @@ const ProductPosition = () => {
       </Link>
       <div className="product-position__cart-panel">
         <span>3751 ₽</span>
-        <button className="product-position__button-buy">В корзину</button>
+        <button onClick={onBuyProduct} className="product-position__button-buy">
+          В корзину
+        </button>
       </div>
     </div>
   );
