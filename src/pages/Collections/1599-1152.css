@@ -1,0 +1,48 @@
+@media (max-width: 1599px) and (min-width: 800px) {
+  .collection__back-text-classname {
+    font-size: 80px;
+  }
+
+  .current-collection__header-part {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .current-collection__photo2 {
+    width: 361px;
+  }
+
+  .current-collection__colums {
+    display: flex;
+    gap: 13px;
+    width: 100%;
+    margin: 0 auto 44px;
+  }
+
+  .current-collection__nav-panel {
+    gap: 20px;
+    align-items: center;
+    width: 673px;
+    margin-left: auto;
+  }
+
+  .current-collection__go-to-colection {
+    margin: 0;
+  }
+
+  .current-collection__header-part {
+    align-items: flex-end;
+  }
+
+  .collection-products__back-text {
+    font-size: 70px;
+  }
+
+  .collection-products__children-class {
+    font-size: 50px;
+  }
+
+  .current-collection__other-collections {
+    margin-left: auto;
+  }
+}

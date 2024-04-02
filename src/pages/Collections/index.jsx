@@ -53,7 +53,7 @@ const Collections = () => {
         <div className="current-collection__nav-panel">
           <StyledButtonOrLink
             to="/"
-            caption="Смотреть коллекцию"
+            caption="Смотреть"
             className="current-collection__go-to-colection"
           />
           {otherCollectionsLink}
