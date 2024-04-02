@@ -19,6 +19,10 @@ const Collections = () => {
     </Link>
   );
 
+  const handleProductBuy = () => {
+    alert("Товар добавлен в корзину");
+  };
+
   return (
     <>
       <section className="current-collection">
@@ -67,7 +71,7 @@ const Collections = () => {
             Товары коллекции
           </h2>
         </BackTextHeader>
-        <CurrentProductsList />
+        <CurrentProductsList onBuyProduct={handleProductBuy} />
       </section>
       <SectionContacts />
     </>
