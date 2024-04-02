@@ -1,0 +1,6 @@
+@media (max-width: 1599px) and (min-width: 1152px) {
+  .current-products-list {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
