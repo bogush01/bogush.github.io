@@ -26,6 +26,7 @@
 @media (max-width: 1599px) and (min-width: 1152px) {
   :root {
     --main-width: 1024px;
+    --main-carousel-width: 1024px;
   }
 }
 
