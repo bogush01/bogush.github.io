@@ -41,7 +41,6 @@ const MainPage = () => {
           className="pb-111"
         />
       </section>
-      */}
       <SectionContacts />
     </>
   );

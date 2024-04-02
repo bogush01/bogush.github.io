@@ -1,0 +1,5 @@
+@media (max-width: 1599px) and (min-width: 1152px) {
+  .header__main-menu {
+    gap: 20px;
+  }
+}

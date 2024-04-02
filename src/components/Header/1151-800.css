@@ -1,18 +1,15 @@
-@media (max-width: 1599px) and (min-width: 800px) {
-  .header__logo {
-    display: none;
+@media (max-width: 1151px) and (min-width: 800px) {
+  .header__main-menu {
+    gap: 20px;
   }
 
+  .header__logo,
   .header__socials {
     display: none;
   }
 
   .header__main-menu-conainer {
     margin: 0 auto;
-  }
-
-  .header__main-menu {
-    gap: 30px;
   }
 
   .header__gender-menu {

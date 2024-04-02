@@ -23,7 +23,13 @@
   }
 }
 
-@media (max-width: 1599px) and (min-width: 800px) {
+@media (max-width: 1599px) and (min-width: 1152px) {
+  :root {
+    --main-width: 1024px;
+  }
+}
+
+@media (max-width: 1151px) and (min-width: 800px) {
   :root {
     --main-width: 672px;
     --central-block-width: 594px;
