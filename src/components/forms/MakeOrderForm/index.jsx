@@ -4,7 +4,8 @@ import StyledButtonOrLink from "../../controls/StyledButtonOrLink";
 
 import "./index.css";
 
-const MakeOrderForm = () => {
+const MakeOrderForm = (props) => {
+  const { onSubmitForm } = props;
   const radioChecked = true;
 
   return (
@@ -91,6 +92,7 @@ const MakeOrderForm = () => {
         caption="Согласие на обработку персональных данных"
       />
       <StyledButtonOrLink
+        onClick={onSubmitForm}
         caption="Оформить"
         type="button"
         className="make-order-form__submit"

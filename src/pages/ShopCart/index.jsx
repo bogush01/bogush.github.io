@@ -5,6 +5,10 @@ import MakeOrderForm from "../../components/forms/MakeOrderForm";
 import "./index.css";
 
 const ShopCart = () => {
+  const handleFormSubmit = () => {
+    alert("Заявка отправлена. С вами свяжутся");
+  };
+
   return (
     <>
       <BackTextHeader
@@ -34,7 +38,7 @@ const ShopCart = () => {
         </div>
         <div className="shop-cart__form-container">
           <div className="shop-cart__form-header">Оформление заказа</div>
-          <MakeOrderForm />
+          <MakeOrderForm onSubmitForm={handleFormSubmit} />
         </div>
       </div>
     </>
