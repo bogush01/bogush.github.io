@@ -1,0 +1,31 @@
+.counter {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: #fff;
+}
+
+.counter__button {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  transition: color 0.5s linear;
+  width: 15px;
+}
+
+.counter__button:hover {
+  color: var(--main-yellow);
+}
+
+.dec-button {
+  /* смещаем кнопку минус немного выше,
+  иначе сам минус отображается немного низко. Нервоно получается. */
+  margin-top: -3px;
+}
+
+.counter__indicator {
+  width: 15px;
+}

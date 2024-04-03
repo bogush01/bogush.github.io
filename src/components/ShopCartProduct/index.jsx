@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import Counter from "../../components/Counter";
+
 import photo from "../../img/shop_cart/photo1.jpg";
 
 import "./index.css";
@@ -17,7 +19,9 @@ const ShopCartProduct = () => {
         </Link>
         <ul className="shop-cart-product__features">
           <li>Размер: M</li>
-          <li>Кол-во: - 1 +</li>
+          <li>
+            <Counter />
+          </li>
           <li>Стоимость: 3751 </li>
         </ul>
       </div>
