@@ -47,20 +47,23 @@
 .main-carousel__slide-info {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  padding: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   gap: 10px;
-  margin: auto 100px 162px auto;
-  width: var(--main-carousel-slide-info-width);
+  /*  width: var(--main-carousel-slide-info-width);*/
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .main-carousel__collection-description {
   margin: 0;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   font-size: 20px;
   line-height: 1.2;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .main-carousel__slide-catalog-link {
