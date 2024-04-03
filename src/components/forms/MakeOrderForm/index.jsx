@@ -72,20 +72,18 @@ const MakeOrderForm = () => {
         <legend className="make-order-form__fieldset-legend">
           Способ оплаты
         </legend>
-        <div className="make-order-form__fieldset-row">
-          <StyledRadio
-            className="make-order-form__radio"
-            checked={radioChecked}
-            name="payway"
-            caption="оплата online"
-          />
-          <StyledRadio
-            className="make-order-form__radio"
-            checked={!radioChecked}
-            name="payway"
-            caption="наложенным платежом"
-          />
-        </div>
+        <StyledRadio
+          className="make-order-form__radio"
+          checked={radioChecked}
+          name="payway"
+          caption="оплата online"
+        />
+        <StyledRadio
+          className="make-order-form__radio"
+          checked={!radioChecked}
+          name="payway"
+          caption="наложенным платежом"
+        />
       </fieldset>
 
       <StyledCheckbox
