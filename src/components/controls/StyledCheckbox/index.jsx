@@ -6,7 +6,9 @@ const StyledCheckbox = (props) => {
   return (
     <label className={`styled-checkbox ${className}`}>
       <input type="checkbox" className="styled-checkbox__checkbox" />
-      <div className="styled-checkbox__fake-checkbox"></div>
+      <span className="styled-checkbox__checkbox-wrapper">
+        <span className="styled-checkbox__fake-checkbox"></span>
+      </span>
       <span className={`styled-checkbox__caption ${captionClassName}`}>
         {caption}
       </span>
