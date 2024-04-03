@@ -1,4 +1,5 @@
 import StyledCheckbox from "../../controls/StyledCheckbox";
+import StyledRadio from "../../controls/StyledRadio";
 import StyledButtonOrLink from "../../controls/StyledButtonOrLink";
 
 import "./index.css";
@@ -73,6 +74,8 @@ const MakeOrderForm = () => {
         captionClassName="make-order-form__personal-data-caption"
         caption="Согласие на обработку персональных данных"
       />
+      <StyledRadio caption="Надпись один" name="q1" checked={true} />
+      <StyledRadio caption="Надпись два" name="q1" checked={true} />
       <StyledButtonOrLink
         caption="Оформить"
         type="button"
