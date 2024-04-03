@@ -9,6 +9,12 @@ body {
   color: #ffffff;
   font-family: "uindbase";
   height: 100%;
+  text-transform: uppercase;
+}
+
+button,
+input::placeholder {
+  text-transform: uppercase;
 }
 
 #root {
