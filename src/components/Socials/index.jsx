@@ -12,22 +12,22 @@ const Socials = (props) => {
     <>
       <ul className={`social-buttons ${className}`}>
         <li>
-          <a href="#">
+          <a href="#" className="social-buttons__vk">
             <SocVk />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" className="social-buttons__tg">
             <SocTg />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" className="social-buttons__inst">
             <SocInst />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" className="social-buttons__vk">
             <SocTiktok />
           </a>
         </li>

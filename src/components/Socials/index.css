@@ -6,3 +6,23 @@
   gap: 25px;
   align-items: center;
 }
+
+.social-buttons__inst path {
+  transition: stroke 0.2s ease-in;
+}
+
+.social-buttons__inst:hover path {
+  stroke: var(--main-yellow);
+}
+
+.social-buttons__vk path,
+.social-buttons__tg path,
+.social-buttons__tiktok path {
+  transition: fill 0.2s ease-in;
+}
+
+.social-buttons__vk:hover path,
+.social-buttons__tg:hover path,
+.social-buttons__tiktok:hover path {
+  fill: var(--main-yellow);
+}
