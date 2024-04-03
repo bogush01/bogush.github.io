@@ -21,7 +21,7 @@ const CurrentProductsList = (props) => {
     <div className={`current-products-list-wrapper ${className}`}>
       <ul className="current-products-list">{products}</ul>
       <div className="link-show-more-connainer">
-        <Link className="link-show-more" to="/">
+        <Link className="link-show-more" to="/catalog">
           Смотреть больше
         </Link>
       </div>
