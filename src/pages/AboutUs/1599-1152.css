@@ -1,0 +1,13 @@
+@media (max-width: 1599px) and (min-width: 1152px) {
+  .about-us__gallery {
+    width: var(--central-block-width);
+  }
+
+  .about-us {
+    padding: 135px 0;
+  }
+
+  .about-us__gallery {
+    height: 295px;
+  }
+}

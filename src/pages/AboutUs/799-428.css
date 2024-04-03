@@ -1,9 +1,17 @@
-@media (max-width: 799px) and (min-width: 429px) {
+@media (max-width: 799px) and (min-width: 428px) {
   .about-us__gallery {
     width: 379px;
   }
 
   .about-us {
     padding: 0 20px;
+  }
+
+  .about-us__back-text-class {
+    font-size: 60px;
+  }
+
+  .about-us__children-class {
+    font-size: 55px;
   }
 }
