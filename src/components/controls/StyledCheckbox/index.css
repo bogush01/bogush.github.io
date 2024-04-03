@@ -24,14 +24,13 @@
 .styled-checkbox__caption {
   font-size: 15px;
   color: #fff;
-  display: inline-block;
 }
 
 .styled-checkbox__checkbox:checked
-  + .styled-checkbox__checkbox-wrapper
+  + .styled-checkbox__fake-checkbox-wrapper
   .styled-checkbox__fake-checkbox:before,
 .styled-checkbox__checkbox:checked
-  + .styled-checkbox__checkbox-wrapper
+  + .styled-checkbox__fake-checkbox-wrapper
   .styled-checkbox__fake-checkbox:after {
   content: "";
   position: absolute;
@@ -39,7 +38,7 @@
 }
 
 .styled-checkbox__checkbox:checked
-  + .styled-checkbox__checkbox-wrapper
+  + .styled-checkbox__fake-checkbox-wrapper
   .styled-checkbox__fake-checkbox:before {
   width: 3px;
   height: 20px;
@@ -50,7 +49,7 @@
 }
 
 .styled-checkbox__checkbox:checked
-  + .styled-checkbox__checkbox-wrapper
+  + .styled-checkbox__fake-checkbox-wrapper
   .styled-checkbox__fake-checkbox:after {
   top: 13px;
   left: 1px;
