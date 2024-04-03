@@ -25,7 +25,7 @@ const MainPage = () => {
         >
           <h2 className="children-class">На этот сезон</h2>
         </BackTextHeader>
-        <MainCarousel />
+        <MainCarousel className="this-season__main-carousel" />
       </section>
       <section>
         <BackTextHeader

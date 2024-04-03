@@ -7,7 +7,8 @@ import slidesData from "./slides_data.js";
 
 import "./index.css";
 
-const MainCarousel = () => {
+const MainCarousel = (props) => {
+  const { className = "" } = props;
   const [selectedSlide, setSelectedSlide] = useState(0);
 
   const handleSwitchChange = (event) => {
@@ -56,7 +57,7 @@ const MainCarousel = () => {
   });
 
   return (
-    <div className="main-carousel">
+    <div className={`main-carousel ${className}`}>
       <ul className="main-carousel__slides-container">{carouselSlides}</ul>
 
       <ul className="main-carousel__swicth">{switchButtons}</ul>
