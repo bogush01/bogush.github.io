@@ -5,6 +5,8 @@ import StyledButtonOrLink from "../../controls/StyledButtonOrLink";
 import "./index.css";
 
 const MakeOrderForm = () => {
+  const radioChecked = true;
+
   return (
     <form className="make-order-form">
       <fieldset className="make-order-form__fieldset">
@@ -66,16 +68,30 @@ const MakeOrderForm = () => {
           />
         </div>
       </fieldset>
-      {/*      <div className="make-order-form__fieldset-row">
-        <StyledCheckbox caption="оплата online" />
-        <StyledCheckbox caption="наложенным платежом" />
-      </div>*/}
+      <fieldset className="make-order-form__fieldset">
+        <legend className="make-order-form__fieldset-legend">
+          Способ оплаты
+        </legend>
+        <div className="make-order-form__fieldset-row">
+          <StyledRadio
+            className="make-order-form__radio"
+            checked={radioChecked}
+            name="payway"
+            caption="оплата online"
+          />
+          <StyledRadio
+            className="make-order-form__radio"
+            checked={!radioChecked}
+            name="payway"
+            caption="наложенным платежом"
+          />
+        </div>
+      </fieldset>
+
       <StyledCheckbox
         captionClassName="make-order-form__personal-data-caption"
         caption="Согласие на обработку персональных данных"
       />
-      <StyledRadio caption="Надпись один" name="q1" checked={true} />
-      <StyledRadio caption="Надпись два" name="q1" checked={true} />
       <StyledButtonOrLink
         caption="Оформить"
         type="button"

@@ -9,7 +9,7 @@ const StyledRadio = (props) => {
         type="radio"
         name={name}
         className="styled-radio__radio"
-        checked={checked}
+        defaultChecked={checked}
       />
       <span className="styled-radio__radio-wrapper">
         <span className="styled-radio__fake-radio"></span>

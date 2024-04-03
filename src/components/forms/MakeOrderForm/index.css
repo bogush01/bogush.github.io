@@ -40,6 +40,10 @@
   justify-content: space-between;
 }
 
+.make-order-form__radio {
+  flex-grow: 1;
+}
+
 .make-order-form__personal-data-caption {
   font-size: 10px;
 }
